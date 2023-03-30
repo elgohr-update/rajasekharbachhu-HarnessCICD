@@ -24,7 +24,7 @@ jobs:
     - name: Run a one-line script
       run: echo Hello, world!
     - name: Publish Docker
-      uses: elgohr/Publish-Docker-Github-Action@2.14
+      uses: elgohr/Publish-Docker-Github-Action@v5
       with:
         name: tiffanyjachja/apps_repo:tictactoe
         username: ${{ secrets.DOCKER_USERNAME }}
